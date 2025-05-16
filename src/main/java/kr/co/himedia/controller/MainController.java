@@ -13,7 +13,6 @@ public class MainController {
 	@GetMapping(value="/")
 	public String main() {
 		logger.info("hello! LEE KWAN HYUNG");
-		logger.info("아무거나 추가!!!");
 		logger.info("브랜치 초기화 : 특정한 커밋의 상태로 완전히 되돌려 버리는 것");
 		logger.info("커밋 되돌리기 : 특정 커밋에서 행한 작업을 취소 하여 커밋을 추가 하는 것");
 		return "{\"msg\":\"OK\"}";
