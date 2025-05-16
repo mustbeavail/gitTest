@@ -15,5 +15,10 @@ public class MainController {
 		logger.info("hello! LEE KWAN HYUNG");
 		return "{\"msg\":\"OK\"}";
 	}
+	
+	@GetMapping(value="/list")
+	public String list() {
+		return "";
+	}
 
 }
